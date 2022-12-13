@@ -1,0 +1,349 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+.connect{
+    background-color: #c78b07;
+    color: #000000;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    line-height: 1;
+    background-color: white;
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+}
+header .navigation{
+    background-color: black;
+    color: #c78b07;
+}
+
+h1{
+    font-size: 71px;
+    line-height: 106px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    background-image: url(./images/main-banner.jpg);
+}
+
+h2{
+    font-size: 48px;
+    line-height: 106px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    background-color: #ffe6ac;
+}
+
+.section-about {
+    background-color: #ffe6ac;
+
+}
+p{
+    margin-bottom: 1em;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    background: #222222;
+}
+
+.container{
+    padding-top: 14px;
+    background-color: #222222;
+    color: #c78b07;
+}
+nav .image-1{
+    background-color: #c78b07;
+}
+.navlist-1{
+    color: #000000;
+}
+.logo-image{
+    background-color: #c78b07;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a:link,
+nav a:visited {
+    font-size: 28px;
+    color: #c78b07;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+nav .current-1 a:link,
+nav .current-1 a:visited {
+    color: #000000;
+    background-color: #c78b07;
+}
+.header-welcome {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding-bottom: 68px;
+    padding-top: 68px;
+}
+.header-welcome .container {
+    background: rgba(0, 0, 0, 0.5 );
+    color: white;
+}
+.container-section{
+    background-color: #ffe6ac;
+    padding-top: 10px;
+}
+.about-image{
+    padding: 10px 10px 10px 10px;
+}
+.text-aboutus{
+    padding: 10px 10px 10px 10px;
+}
+.transformation-container{
+    background-color: #ffe6ac;
+}
+.transformation-container img{
+    width: 1365px;
+    height: 404px ;
+}
+
+ h3{
+    font-size: 29px;
+    font-weight: bold; 
+    padding-left: 10px;
+}
+p{
+    padding-left: 10px;
+}
+button{
+    padding-left: 10px;
+}
+.marketing{
+    background-color: #ffe6ac;
+}
+.marketing img{
+    width: 1365px;
+    height: 404px ;
+}
+.film-production{
+    background-color: #ffe6ac;
+}
+.video-production img{
+    width: 1365px;
+    height: 404px ;
+}
+.web-devplopment{
+    background-color: #ffe6ac;
+}
+.web-devplopment img{
+    width: 1365px;
+    height: 404px ;
+}
+.print{
+    background-color: #ffe6ac;
+}
+.print img{
+    width: 1365px;
+    height: 404px ;
+}
+.content-vision{
+    background-size: cover;
+    height: 270px;
+    background-image: url("./images/vision.jpg");
+}
+.content-vision h3{
+    color: white;
+    padding: 10px 10px;
+}
+.vision-para{
+    color: white;
+    font-size: 12px;
+}
+.bob-rite{
+    background-color: #ffe6ac;
+}
+hr{
+    color: #c78b07;
+}
+.bob-text{
+    font-size: 19px;
+    font-weight: bold;
+}
+.bob-about{
+    padding-bottom: 40px;
+    background-color: #ffe6ac;
+}
+.bob-rite img{
+    width: 1365px;
+    height: 404px; 
+}
+.john-doe img{
+    width: 1365px;
+    height: 404px;
+}
+.john-doe{
+    background-color: #ffe6ac;
+}
+.john-text{
+    font-size: 19px;
+    font-weight: bold;
+}
+.ball-transformation img{
+    width: 1365px;
+    height: 404px ;
+}
+.john-para{
+    padding-bottom: 20px;
+}
+input{
+    width: 17.8cm;
+}
+textarea{
+    width: 17.8cm;
+    height: 90px;
+}
+tr, th, td{
+    border: 1px solid;
+    width: 786px ;
+    height:50px;
+    vertical-align: middle;
+}
+th{
+    background-color: #ffe6ac;
+}
+td {
+    height: 50px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.operational-hours{
+    padding-top: 58px;
+}
+.button-submit{
+    color: #c78b07;
+}
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+.location{
+    padding-top: 67px;
+    padding-bottom: 10px;
+}
+footer{
+    background-color: black;
+    color: #c78b07;
+}
+#search-bar{
+    width: 615px;
+    height: 34px;
+    margin-bottom: 13px;
+}
+.search{
+    padding: 8px 16px;
+    padding-top: 7px;
+    margin-left: 2px;
+    background: black;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #c78b07;
+    height: 34px;
+
+}
+.vision-container{
+    background-image:url(./image/vision.jpg) ;
+}
+.vision-container button{
+    margin-top: 40px;
+    padding: 30px 40px;
+    background-color: #0e233d;
+    border: 1px solid #c78b07;
+}
+hr{
+    border: 1px solid #c78b07;
+}
+
+.map iframe{
+    width: 680px;
+}
+@media screen and (min-width: 760px) {
+    .container{
+        width: 706px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 1168px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+    .navigation .container{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: black;
+    }
+    .about-bob, .bob-text {
+        background-color: #ffe6ac;
+    }
+    .headerbox{
+        background-color: #000000;
+    }
+    .logo-image{
+        background-color: #000000;
+    }
+    .navigatin .container img, li, form{
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+    }
+}
